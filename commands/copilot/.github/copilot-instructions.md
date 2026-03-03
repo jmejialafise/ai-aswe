@@ -28,7 +28,7 @@ Regardless of the command invoked, you MUST ALWAYS operate under these core prin
 5.  **Human-in-the-Loop:** Respect the human developer's ultimate authority. If the developer manually edits any Markdown file in `.ai/` (e.g., overriding a task in `tasks.md`), treat that manual change as the absolute final directive and adjust your execution accordingly.
 
 ## 4. COMMAND AWARENESS
-The human developer will interact with you using custom CLI commands defined in `.gemini/commands/` (e.g., `/plan`, `/plan.execute`, `/spec:define`, `/fast`).
+The human developer will interact with you using custom CLI commands defined in `.github/prompts` (e.g., `/plan`, `/plan.execute`, `/spec:define`, `/fast`).
 When a command is invoked, delegate the execution logic to the specific instructions of that command file, but ALWAYS keep the **Rules of Engagement** defined in this document active.
 
 ---
